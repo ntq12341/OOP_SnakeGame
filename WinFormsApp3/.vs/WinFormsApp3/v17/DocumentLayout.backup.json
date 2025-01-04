@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2.Source\\Visual Studio 22\\vs cs\\WinFormsApp3\\WinFormsApp3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F121793E-0BD7-410A-B2B4-A3B6F2194551}|WinFormsApp3.csproj|d:\\2.source\\visual studio 22\\vs cs\\winformsapp3\\winformsapp3\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F121793E-0BD7-410A-B2B4-A3B6F2194551}|WinFormsApp3.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F121793E-0BD7-410A-B2B4-A3B6F2194551}|WinFormsApp3.csproj|d:\\2.source\\visual studio 22\\vs cs\\winformsapp3\\winformsapp3\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F121793E-0BD7-410A-B2B4-A3B6F2194551}|WinFormsApp3.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F121793E-0BD7-410A-B2B4-A3B6F2194551}|WinFormsApp3.csproj|d:\\2.source\\visual studio 22\\vs cs\\winformsapp3\\winformsapp3\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F121793E-0BD7-410A-B2B4-A3B6F2194551}|WinFormsApp3.csproj|solutionrelative:menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\2.Source\\Visual Studio 22\\vs cs\\WinFormsApp3\\WinFormsApp3\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "D:\\2.Source\\Visual Studio 22\\vs cs\\WinFormsApp3\\WinFormsApp3\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:10:02.627Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\2.Source\\Visual Studio 22\\vs cs\\WinFormsApp3\\WinFormsApp3\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "D:\\2.Source\\Visual Studio 22\\vs cs\\WinFormsApp3\\WinFormsApp3\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:10:00.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.Designer.cs",
+              "DocumentMoniker": "D:\\2.Source\\Visual Studio 22\\vs cs\\WinFormsApp3\\WinFormsApp3\\Menu.Designer.cs",
+              "RelativeDocumentMoniker": "Menu.Designer.cs",
+              "ToolTip": "D:\\2.Source\\Visual Studio 22\\vs cs\\WinFormsApp3\\WinFormsApp3\\Menu.Designer.cs",
+              "RelativeToolTip": "Menu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:09:59.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

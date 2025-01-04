@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,7 +19,6 @@ namespace WinFormsApp3
         }
 
         // Các đối tượng phục vụ cho truy vấn
-        Modify modify = new Modify();
         List<Player> players;
         string query;
 
@@ -33,21 +33,21 @@ namespace WinFormsApp3
             string account = textBox_Name.Text;
             string password = textBox_Password.Text;
 
-            if (string.IsNullOrEmpty(account) )
+            if (string.IsNullOrEmpty(account))
             {
                 MessageBox.Show("Vui lòng nhập tên tài khoản");
                 return;
             }
-            if (string.IsNullOrEmpty(password) )
+            if (string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Vui lòng nhập mật khẩu");
                 return;
             }
-           
+
             // Kiểm tra tài khoản đã có chưa
             query = $"SELECT * FROM AccountInfor WHERE Account = '{account}'";
-            players = modify.ListPlayers(query);
-            if (players.Count > 0 )
+            players = Modify.ListPlayers(query);
+            if (players.Count > 0)
             {
                 MessageBox.Show("Tài khoản đã tồn tại");
                 return;
@@ -55,7 +55,7 @@ namespace WinFormsApp3
 
             // Thêm thông tin người chơi vào bảng dữ liệu
             query = $"INSERT INTO AccountInfor (Account,Password,MaxScore) VALUES ('{account}','{password}',0)";
-            modify.Command(query);
+            Modify.Command(query);
             MessageBox.Show("Đăng ký thành công");
             this.Hide();
             LogIn logIn = new LogIn();

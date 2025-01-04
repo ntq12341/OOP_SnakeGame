@@ -28,11 +28,10 @@ namespace WinFormsApp3
         void LoadHighScores()
         {
             // thực hiện câu lệnh truy vấn SQL
-            Modify modify = new Modify();
             string query = "SELECT TOP 10 Account,MaxScore FROM AccountInfor ORDER BY MaxScore DESC";
 
             // danh sách top người chơi khi thực hiện truy vấn
-            var highScores = modify.TopPlayers(query);
+            var highScores = Modify.TopPlayers(query);
 
             // Thêm những người chơi vào danh sách
             listView_highScore.Columns.Add("Player", 300);

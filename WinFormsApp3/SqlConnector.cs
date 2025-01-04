@@ -11,7 +11,7 @@ namespace WinFormsApp3
     /// <summary>
     /// Kết nối cơ sở dữ liệu
     /// </summary>
-    internal class SqlConnector
+    internal static class SqlConnector
     {
         // Đường dãn tới file chứa cơ sở dữ liệu
         static string dir = Directory.GetParent(Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).FullName).FullName).FullName; 

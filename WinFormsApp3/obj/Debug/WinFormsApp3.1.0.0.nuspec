@@ -18,7 +18,7 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="D:\2.Source\Visual Studio 22\vs cs\WinFormsApp3\WinFormsApp3\bin\Debug\net8.0-windows\WinFormsApp3.runtimeconfig.json" target="lib\net8.0-windows7.0\WinFormsApp3.runtimeconfig.json" />
-    <file src="D:\2.Source\Visual Studio 22\vs cs\WinFormsApp3\WinFormsApp3\bin\Debug\net8.0-windows\WinFormsApp3.dll" target="lib\net8.0-windows7.0\WinFormsApp3.dll" />
+    <file src="D:\OOP_SnakeGame\WinFormsApp3\bin\Debug\net8.0-windows\WinFormsApp3.runtimeconfig.json" target="lib\net8.0-windows7.0\WinFormsApp3.runtimeconfig.json" />
+    <file src="D:\OOP_SnakeGame\WinFormsApp3\bin\Debug\net8.0-windows\WinFormsApp3.dll" target="lib\net8.0-windows7.0\WinFormsApp3.dll" />
   </files>
 </package>

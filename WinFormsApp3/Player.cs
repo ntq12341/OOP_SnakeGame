@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using WinFormsApp3;
 
 namespace WinFormsApp3
 {
@@ -18,7 +19,7 @@ namespace WinFormsApp3
 
         public Player()
         {
-            _name = "admin";
+            _name = "admim";
             _password = "";
             _maxScore = 0;
         }
@@ -52,7 +53,6 @@ namespace WinFormsApp3
             get { return _maxScore; }
             set { _maxScore = value; }
         }
-
         /// <summary>
         /// Cập nhật điểm cao nhất
         /// </summary>
@@ -60,8 +60,8 @@ namespace WinFormsApp3
         public void UpdateMaxScore(int maxScore)
         {
             _maxScore = maxScore;
-            Modify modify = new Modify();
-            modify.Command($"UPDATE AccountInfor SET MaxScore = {_maxScore} WHERE Account = '{_name}'");
+            Modify.Command($"UPDATE AccountInfor SET MaxScore = {_maxScore} WHERE Account = '{_name}'");
         }
+
     }
 }

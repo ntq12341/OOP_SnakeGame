@@ -1,4 +1,5 @@
-﻿namespace WinFormsApp3
+﻿
+namespace WinFormsApp3
 {
     public partial class LogIn : Form
     {
@@ -17,15 +18,12 @@
             // Lấy thông tin nhập vào
             string account = textBox_Name.Text;
             string password = textBox_Password.Text;
-
-            Modify modify = new Modify();
-
             if (string.IsNullOrEmpty(account))
             {
                 MessageBox.Show("Vui lòng nhập tài khoản");
                 return;
             }
-            if(string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Vui lòng nhập mật khẩu");
                 return;
@@ -33,14 +31,12 @@
 
             // Truy vấn tất cả người chơi để tìm theo tên và mật khẩu
             string query = $"SELECT * FROM AccountInfor WHERE Account = '{account}' AND Password = '{password}'";
-            if(modify.ListPlayers(query).Count == 1)
+            if (Modify.ListPlayers(query).Count == 1)
             {
                 MessageBox.Show("Đăng nhập thành công");
-
                 // Người chơi đăng nhập thành công và hiện menu
-                Player p1 = modify.ListPlayers(query)[0];
+                Player p1 = Modify.ListPlayers(query)[0];
                 Menu menu = new Menu(p1);
-
                 this.Hide();
                 menu.ShowDialog();
                 this.Close();
@@ -49,6 +45,7 @@
             {
                 MessageBox.Show("Tài khoản hoặc mật khẩu sai");
             }
+
         }
 
         /// <summary>
