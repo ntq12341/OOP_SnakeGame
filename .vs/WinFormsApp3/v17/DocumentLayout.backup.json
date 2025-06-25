@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OOP_SnakeGame\\",
+  "WorkspaceRootPath": "D:\\2.Source\\Cs\\Cs.VS22\\OOP_SnakeGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E2ABC12-4B67-4128-90EB-EA5A4864D872}|WinFormsApp3\\WinFormsApp3.csproj|d:\\oop_snakegame\\winformsapp3\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E2ABC12-4B67-4128-90EB-EA5A4864D872}|WinFormsApp3\\WinFormsApp3.csproj|d:\\2.source\\cs\\cs.vs22\\oop_snakegame\\winformsapp3\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E2ABC12-4B67-4128-90EB-EA5A4864D872}|WinFormsApp3\\WinFormsApp3.csproj|solutionrelative:winformsapp3\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Modify.cs",
-              "DocumentMoniker": "D:\\OOP_SnakeGame\\WinFormsApp3\\Modify.cs",
+              "DocumentMoniker": "D:\\2.Source\\Cs\\Cs.VS22\\OOP_SnakeGame\\WinFormsApp3\\Modify.cs",
               "RelativeDocumentMoniker": "WinFormsApp3\\Modify.cs",
-              "ToolTip": "D:\\OOP_SnakeGame\\WinFormsApp3\\Modify.cs",
+              "ToolTip": "D:\\2.Source\\Cs\\Cs.VS22\\OOP_SnakeGame\\WinFormsApp3\\Modify.cs",
               "RelativeToolTip": "WinFormsApp3\\Modify.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T14:46:57.323Z",
               "EditorCaption": ""

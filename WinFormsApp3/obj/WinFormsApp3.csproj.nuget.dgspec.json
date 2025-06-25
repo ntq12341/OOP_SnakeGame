@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OOP_SnakeGame\\WinFormsApp3\\WinFormsApp3.csproj": {}
+    "D:\\2.Source\\Cs\\Cs.VS22\\OOP_SnakeGame\\WinFormsApp3\\WinFormsApp3.csproj": {}
   },
   "projects": {
-    "D:\\OOP_SnakeGame\\WinFormsApp3\\WinFormsApp3.csproj": {
+    "D:\\2.Source\\Cs\\Cs.VS22\\OOP_SnakeGame\\WinFormsApp3\\WinFormsApp3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OOP_SnakeGame\\WinFormsApp3\\WinFormsApp3.csproj",
+        "projectUniqueName": "D:\\2.Source\\Cs\\Cs.VS22\\OOP_SnakeGame\\WinFormsApp3\\WinFormsApp3.csproj",
         "projectName": "WinFormsApp3",
-        "projectPath": "D:\\OOP_SnakeGame\\WinFormsApp3\\WinFormsApp3.csproj",
+        "projectPath": "D:\\2.Source\\Cs\\Cs.VS22\\OOP_SnakeGame\\WinFormsApp3\\WinFormsApp3.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\OOP_SnakeGame\\WinFormsApp3\\obj\\",
+        "outputPath": "D:\\2.Source\\Cs\\Cs.VS22\\OOP_SnakeGame\\WinFormsApp3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>WinFormsApp3</authors>
     <description>Package Description</description>
-    <repository type="git" />
+    <repository type="git" commit="2c4e7d908b3543362d831fac6cfe6d8065da0c51" />
     <dependencies>
       <group targetFramework="net8.0-windows7.0">
         <dependency id="Microsoft.Data.SqlClient" version="5.2.2" exclude="Build,Analyzers" />
@@ -18,7 +18,7 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="D:\OOP_SnakeGame\WinFormsApp3\bin\Debug\net8.0-windows\WinFormsApp3.runtimeconfig.json" target="lib\net8.0-windows7.0\WinFormsApp3.runtimeconfig.json" />
-    <file src="D:\OOP_SnakeGame\WinFormsApp3\bin\Debug\net8.0-windows\WinFormsApp3.dll" target="lib\net8.0-windows7.0\WinFormsApp3.dll" />
+    <file src="D:\2.Source\Cs\Cs.VS22\OOP_SnakeGame\WinFormsApp3\bin\Debug\net8.0-windows\WinFormsApp3.runtimeconfig.json" target="lib\net8.0-windows7.0\WinFormsApp3.runtimeconfig.json" />
+    <file src="D:\2.Source\Cs\Cs.VS22\OOP_SnakeGame\WinFormsApp3\bin\Debug\net8.0-windows\WinFormsApp3.dll" target="lib\net8.0-windows7.0\WinFormsApp3.dll" />
   </files>
 </package>
